@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Field Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Electric Field Simulator</h1>
+<canvas id="canvas" width="800" height="600"></canvas>
+<div>
+    <label for="dipoleMoment">Dipole Moment (p):</label>
+    <input type="number" id="dipoleMoment" value="1">
+</div>
+<div>
+    <label for="distance">Distance (l):</label>
+    <input type="number" id="distance" value="1">
+</div>
+<div>
+    <label for="charge">Charge (q):</label>
+    <input type="number" id="charge" value="1">
+</div>
+<button id="calculateButton">Calculate Field</button>
+<p id="result"></p>
+<script src="script.js"></script>
+</body>
+</html>
